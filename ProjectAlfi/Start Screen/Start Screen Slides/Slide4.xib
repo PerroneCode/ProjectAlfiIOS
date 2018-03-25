@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="Museo_Slab_500_2.otf">
+            <string>MuseoSlab-500</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide" customModule="ProjectAlfi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-health-checkup-filled-100" translatesAutoresizingMaskIntoConstraints="NO" id="LCz-Fn-Dcm">
+                    <rect key="frame" x="137" y="145" width="100" height="100"/>
+                    <color key="tintColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="KEd-df-RYi"/>
+                        <constraint firstAttribute="height" constant="100" id="ihv-aw-BaL"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="a9U-Yx-swH">
+                    <rect key="frame" x="44" y="318" width="287" height="77"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="77" id="bBM-LH-FyX"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="16"/>
+                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Your Personal Health Assistant" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RcQ-h9-6vT">
+                    <rect key="frame" x="39" y="265" width="297" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="rei-tm-3sQ"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MuseoSlab-500" family="Museo Slab" pointSize="18"/>
+                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <constraints>
+                <constraint firstItem="LCz-Fn-Dcm" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="145" id="1l2-Fw-NGM"/>
+                <constraint firstItem="a9U-Yx-swH" firstAttribute="top" secondItem="RcQ-h9-6vT" secondAttribute="bottom" constant="8" symbolic="YES" id="45j-se-erx"/>
+                <constraint firstItem="RcQ-h9-6vT" firstAttribute="top" secondItem="LCz-Fn-Dcm" secondAttribute="bottom" constant="20" id="9k3-Pp-fV2"/>
+                <constraint firstAttribute="trailing" secondItem="a9U-Yx-swH" secondAttribute="trailing" constant="44" id="CWe-Sb-WpI"/>
+                <constraint firstItem="LCz-Fn-Dcm" firstAttribute="centerX" secondItem="RcQ-h9-6vT" secondAttribute="centerX" id="OJX-QR-pPs"/>
+                <constraint firstItem="RcQ-h9-6vT" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="39" id="Qys-zm-2a8"/>
+                <constraint firstItem="a9U-Yx-swH" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="44" id="hh6-l3-fwP"/>
+                <constraint firstItem="RcQ-h9-6vT" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="jy2-3s-7fL"/>
+                <constraint firstItem="a9U-Yx-swH" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="yhj-32-RXL"/>
+            </constraints>
+            <connections>
+                <outlet property="slide4Image" destination="LCz-Fn-Dcm" id="g6p-2l-pt5"/>
+                <outlet property="title4" destination="RcQ-h9-6vT" id="1eS-go-lBC"/>
+            </connections>
+            <point key="canvasLocation" x="66.5" y="75.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-health-checkup-filled-100" width="100" height="100"/>
+    </resources>
+</document>

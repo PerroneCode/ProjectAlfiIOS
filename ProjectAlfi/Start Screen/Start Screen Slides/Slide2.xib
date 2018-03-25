@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="MuseoSans-300.otf">
+            <string>MuseoSans-300</string>
+        </array>
+        <array key="Museo_Slab_500_2.otf">
+            <string>MuseoSlab-500</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="Slide" customModule="ProjectAlfi" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Rasberry Pi" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aws-oi-Oco">
+                    <rect key="frame" x="70" y="270" width="234" height="45"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="89C-nF-Qj8"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MuseoSlab-500" family="Museo Slab" pointSize="18"/>
+                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="4" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9K3-1Z-nNC">
+                    <rect key="frame" x="45" y="315" width="284" height="68"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="68" id="0Mc-nQ-rSa"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="MuseoSans-300" family="Museo Sans" pointSize="16"/>
+                    <color key="textColor" red="0.12941176469999999" green="0.12941176469999999" blue="0.12941176469999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icons8-raspberry-pi-filled-100" translatesAutoresizingMaskIntoConstraints="NO" id="eE5-CN-VYo">
+                    <rect key="frame" x="127" y="130" width="120" height="120"/>
+                    <color key="tintColor" red="0.98823529409999999" green="0.98823529409999999" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="120" id="d7c-VN-Anq"/>
+                        <constraint firstAttribute="height" constant="120" id="krj-Lq-zaX"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <constraints>
+                <constraint firstItem="9K3-1Z-nNC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="45" id="EJk-Ji-A7Q"/>
+                <constraint firstItem="eE5-CN-VYo" firstAttribute="centerX" secondItem="9K3-1Z-nNC" secondAttribute="centerX" id="Kia-ih-blp"/>
+                <constraint firstItem="9K3-1Z-nNC" firstAttribute="top" secondItem="aws-oi-Oco" secondAttribute="bottom" id="RXe-Nl-fIm"/>
+                <constraint firstAttribute="trailing" secondItem="9K3-1Z-nNC" secondAttribute="trailing" constant="46" id="Rqf-T9-mrp"/>
+                <constraint firstItem="eE5-CN-VYo" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="130" id="XFI-8r-ZEU"/>
+                <constraint firstItem="aws-oi-Oco" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="70" id="cM1-BT-F8d"/>
+                <constraint firstItem="aws-oi-Oco" firstAttribute="centerX" secondItem="eE5-CN-VYo" secondAttribute="centerX" id="fMr-C4-cgL"/>
+                <constraint firstItem="aws-oi-Oco" firstAttribute="top" secondItem="eE5-CN-VYo" secondAttribute="bottom" constant="20" id="vcM-cX-Mdv"/>
+            </constraints>
+            <connections>
+                <outlet property="slide2Image" destination="eE5-CN-VYo" id="miv-6e-wkw"/>
+                <outlet property="title2" destination="aws-oi-Oco" id="wlx-Cj-L3r"/>
+            </connections>
+            <point key="canvasLocation" x="51.5" y="74.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="icons8-raspberry-pi-filled-100" width="100" height="100"/>
+    </resources>
+</document>
