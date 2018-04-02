@@ -143,11 +143,11 @@ extension WeightViewController {
         
 //        navigationItem.backButton.tintColor = UIColorFromRGB(rgbValue: UInt(Constants.startUpColors[self.currentColor]))
         continueButton.backgroundColor = UIColorFromRGB(rgbValue: 0x38DE82)
-        continueButton.layer.cornerRadius = continueButton.frame.height/2
-        continueButton.layer.shadowColor = UIColorFromRGB(rgbValue: 0x212121).cgColor
-        continueButton.layer.shadowOpacity = 0.3
-        continueButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        continueButton.layer.shadowRadius = 3.0
+        continueButton.layer.cornerRadius = 6
+//        continueButton.layer.shadowColor = UIColorFromRGB(rgbValue: 0x212121).cgColor
+//        continueButton.layer.shadowOpacity = 0.3
+//        continueButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+//        continueButton.layer.shadowRadius = 3.0
         
         
         self.weightTextField.textAlignment = NSTextAlignment.center

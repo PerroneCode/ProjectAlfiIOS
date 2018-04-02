@@ -72,25 +72,18 @@ class BaseViewController: UIViewController {
         AudioServicesPlaySystemSound(soundID)
     }
     
-//    func gotoMainScene(){
-//
-//        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
-//        let window = UIApplication.shared.keyWindow
-//
-//        let appNavController: AppNavigationController =
-//            UIStoryboard.viewControllerMain(identifier: "AppNavigationController") as! AppNavigationController
-//
-//        let leftViewController: LeftViewController = UIStoryboard.viewControllerMain(identifier: "LeftViewController") as! LeftViewController
-//
-//        let rightViewController: RightViewController = UIStoryboard.viewControllerMain(identifier: "RightViewController") as! RightViewController
-//
-//        let appNavigationDrawerController: AppNavigationDrawerController =  AppNavigationDrawerController(rootViewController: appNavController, leftViewController: leftViewController, rightViewController: rightViewController)
-//
-//
-//        //setNavigationRoots()
-//        window?.rootViewController = appNavigationDrawerController
-//
-//    }
+    func gotoMainScene(){
+
+        UIApplication.shared.statusBarStyle = UIStatusBarStyle.lightContent
+        let window = UIApplication.shared.keyWindow
+
+        let mainMenuViewController: MainMenuViewController = UIStoryboard.viewControllerMain(identifier: "mainMenuViewController") as! MainMenuViewController
+        let appNavController: UINavigationController = UINavigationController(rootViewController: mainMenuViewController)
+
+        //setNavigationRoots()
+        window?.rootViewController = appNavController
+
+    }
     
     func setGradientBackground() {
         

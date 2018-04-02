@@ -159,14 +159,14 @@ class StartUpViewController: BaseViewController, UIScrollViewDelegate {
 //        slide3Image.image = slide3Image.image!.withRenderingMode(.alwaysTemplate)
 //        slide4Image.image = slide4Image.image!.withRenderingMode(.alwaysTemplate)
 
-        logInButton.layer.cornerRadius = 25
-        logInButton.layer.shadowColor = UIColorFromRGB(rgbValue: 0x212121).cgColor
+        logInButton.layer.cornerRadius = 6
+//        logInButton.layer.shadowColor = UIColorFromRGB(rgbValue: 0x212121).cgColor
         
-        logInButton.layer.shadowOpacity = 0.3
-        logInButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        logInButton.layer.shadowRadius = 3.0
+//        logInButton.layer.shadowOpacity = 0.3
+//        logInButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+//        logInButton.layer.shadowRadius = 3.0
         
-        createAnAccountButton.layer.cornerRadius = 25
+        createAnAccountButton.layer.cornerRadius = 6
         createAnAccountButton.layer.borderWidth = 2
 //        createAnAccountButton.layer.borderColor = UIColorFromRGB(rgbValue: 0xfcfcfa).withAlphaComponent(0.4)
         //        startColorAnimation()

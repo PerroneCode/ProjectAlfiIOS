@@ -103,11 +103,11 @@ extension LoginViewController {
 
         
 
-        logInButton.layer.cornerRadius = 25
-        logInButton.layer.shadowColor = UIColorFromRGB(rgbValue: 0x31597F).cgColor
-        logInButton.layer.shadowOpacity = 0.3
-        logInButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
-        logInButton.layer.shadowRadius = 4.0
+        logInButton.layer.cornerRadius = 6
+//        logInButton.layer.shadowColor = UIColorFromRGB(rgbValue: 0x31597F).cgColor
+//        logInButton.layer.shadowOpacity = 0.3
+//        logInButton.layer.shadowOffset = CGSize(width: 3.0, height: 3.0)
+//        logInButton.layer.shadowRadius = 4.0
 //        NotificationCenter.default.addObserver(self, selector: #selector(LoginViewController.keyboardWillShow), name: NSNotification.Name.UIKeyboardWillShow, object: nil)
 //        NotificationCenter.default.addObserver(self, selector: #selector(LoginViewController.keyboardWillHide), name: NSNotification.Name.UIKeyboardWillHide, object: nil)
         
@@ -118,6 +118,7 @@ extension LoginViewController {
         
 //        self.logInButton.loadingIndicator(true)
         let appDelegate = UIApplication.shared.delegate as! AppDelegate
+        gotoMainScene()
 
 //        ApiFunctions.login(email: email.text!, password: password.text!, device_token: appDelegate.deviceToken, completion: { (message, res, token, imageData, userFirstName, userLastName, phoneNumber, email) in
 //
