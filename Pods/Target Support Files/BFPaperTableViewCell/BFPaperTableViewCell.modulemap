@@ -1,0 +1,6 @@
+framework module BFPaperTableViewCell {
+  umbrella header "BFPaperTableViewCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

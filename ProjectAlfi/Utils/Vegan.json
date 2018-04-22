@@ -1,0 +1,189 @@
+[{
+ "week1": [
+            { "monday": [
+                      {
+                         "breakfast": "Eggs and Bacon"
+                      },
+                      {
+                         "lunch": "Eggs and Bacon"
+                      },
+                      {
+                         "dinner": "Eggs and Bacon"
+                      }
+                    ]
+           
+            },
+           { "tuesday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "wednesday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "thursday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "friday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "saturday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "sunday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           }
+          ]
+ },
+ {
+ "week2": [
+           { "monday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "tuesday": [
+                         {
+                         "breakfast": "Eggs and Bacon"
+                         },
+                         {
+                         "lunch": "Eggs and Bacon"
+                         },
+                         {
+                         "dinner": "Eggs and Bacon"
+                         }
+                         ]
+           
+           },
+           { "wednesday": [
+                           {
+                           "breakfast": "Eggs and Bacon"
+                           },
+                           {
+                           "lunch": "Eggs and Bacon"
+                           },
+                           {
+                           "dinner": "Eggs and Bacon"
+                           }
+                           ]
+           
+           },
+           { "thursday": [
+                          {
+                          "breakfast": "Eggs and Bacon"
+                          },
+                          {
+                          "lunch": "Eggs and Bacon"
+                          },
+                          {
+                          "dinner": "Eggs and Bacon"
+                          }
+                          ]
+           
+           },
+           { "friday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           
+           },
+           { "saturday": [
+                          {
+                          "breakfast": "Eggs and Bacon"
+                          },
+                          {
+                          "lunch": "Eggs and Bacon"
+                          },
+                          {
+                          "dinner": "Eggs and Bacon"
+                          }
+                          ]
+           
+           },
+           { "sunday": [
+                        {
+                        "breakfast": "Eggs and Bacon"
+                        },
+                        {
+                        "lunch": "Eggs and Bacon"
+                        },
+                        {
+                        "dinner": "Eggs and Bacon"
+                        }
+                        ]
+           }
+           ]
+ },
+ ]

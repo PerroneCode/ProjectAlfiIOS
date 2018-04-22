@@ -1,0 +1,6 @@
+framework module Pods_ProjectAlfi {
+  umbrella header "Pods-ProjectAlfi-umbrella.h"
+
+  export *
+  module * { export * }
+}

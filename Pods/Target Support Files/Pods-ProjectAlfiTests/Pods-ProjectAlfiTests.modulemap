@@ -1,0 +1,6 @@
+framework module Pods_ProjectAlfiTests {
+  umbrella header "Pods-ProjectAlfiTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
